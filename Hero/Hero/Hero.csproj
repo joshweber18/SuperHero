@@ -205,6 +205,10 @@
     <Compile Include="Migrations\201811291611071_SuperHero.Designer.cs">
       <DependentUpon>201811291611071_SuperHero.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811291923261_remove List.cs" />
+    <Compile Include="Migrations\201811291923261_remove List.Designer.cs">
+      <DependentUpon>201811291923261_remove List.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -214,6 +218,7 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap-superhero.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -272,7 +277,11 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\SuperHero\SuperHeroView.cshtml" />
+    <Content Include="Views\SuperHero\Create.cshtml" />
+    <Content Include="Views\SuperHero\Details.cshtml" />
+    <Content Include="Views\SuperHero\Edit.cshtml" />
+    <Content Include="Views\SuperHero\Delete.cshtml" />
+    <Content Include="Views\SuperHero\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -293,6 +302,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201811291611071_SuperHero.resx">
       <DependentUpon>201811291611071_SuperHero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811291923261_remove List.resx">
+      <DependentUpon>201811291923261_remove List.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
