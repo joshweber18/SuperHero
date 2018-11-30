@@ -23,7 +23,7 @@ namespace Hero
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap-superhero.css",
+                      "~/Content/bootstrap-new.css",
                       "~/Content/site.css"));
         }
     }
